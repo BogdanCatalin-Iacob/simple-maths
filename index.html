@@ -27,7 +27,29 @@
     </h1>
 
     <!--game area - start-->
-    <div class="game-area"></div>
+    <div class="game-area">
+        <!--control-buttons - start-->
+        <div class="controls-area">
+            <button class="button button--big button--green"><i class="fas fa-plus"></i></button>
+            <button class="button button--big button--blue"><i class="fas fa-minus"></i></button>
+            <button class="button button--big button--orange"><i class="fas fa-times"></i></button>
+            <button class="button button--big button--red"><i class="fas fa-divide"></i></button>
+        </div>
+        <!--control-buttons - start-->
+
+        <!--questions-area - start-->
+        <div class="question-area">
+            <span id="operand1">0</span>
+            <span id="operator">x</span>
+            <span id="operand2">0</span>
+            <span>=</span>
+            <p class="answer-message">Enter Answer:</p>
+            <input id="answer-box" type="number">
+        </div>
+        <!--questions-area - end-->
+
+        <button class="button button--gray">Submit Answer</button>
+    </div>
     <!--game area - end-->
 
     <!--score area - start-->
